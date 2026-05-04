@@ -1,0 +1,37 @@
+using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEngine;
+
+public class Player : MonoBehaviour
+{
+    public List<string> puntaje = new List<string>();
+
+
+
+
+    void Start()
+    {
+       
+        puntaje.Add("Puntos: 100");
+        puntaje.Add("puntos:75");
+        puntaje.Add("puntos:50");
+        puntaje.Add("puntos:25");
+        puntaje.Add("puntos:0");
+
+        Debug.Log("LOS MAYORES PUNTAJES SON " + puntaje[0] + ", " + puntaje[1] + ", " + puntaje[2] + ", " + puntaje[3] + ", " + puntaje[4]);
+
+
+
+
+    }
+
+    
+
+
+
+
+    void Update()
+    {
+        
+    }
+}
