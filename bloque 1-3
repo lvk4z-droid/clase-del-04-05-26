@@ -1,0 +1,29 @@
+using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEngine;
+
+public class GameManager : MonoBehaviour
+{
+
+
+  public int[] vidas = {1,2,3};
+
+
+
+    void Start()
+    {
+        vidas[0] = 1;
+        vidas[1] = 2;
+        vidas[2] = 3;
+
+
+        
+
+    }
+
+
+    void Update()
+    {
+
+    }
+}
