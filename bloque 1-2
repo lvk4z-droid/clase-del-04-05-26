@@ -1,0 +1,28 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class GameManager : MonoBehaviour
+{
+
+    public List<string> inventario = new List<string>();
+
+
+
+    void Start()
+    {
+
+
+        inventario.Add("Mapa");
+        inventario.Add("Llave");
+        inventario.Add("Espada");
+
+        Debug.Log("En el inventario tienes " + inventario[0] + ", " + inventario[1] + ", " + inventario[2]);
+
+    }
+
+
+    void Update()
+    {
+
+    }
+}
