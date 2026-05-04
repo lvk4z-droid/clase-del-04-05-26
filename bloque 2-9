@@ -1,0 +1,30 @@
+
+using System.Collections.Generic;
+using UnityEngine;
+
+public class GameManager : MonoBehaviour
+{
+
+    public List<string> nombresDeMonstruos = new List<string>();
+
+
+    
+    void Start()
+    {
+        nombresDeMonstruos.Add("Demitri");
+        nombresDeMonstruos.Add("Morrigan");
+        nombresDeMonstruos.Add("Anakaris");
+
+        nombresDeMonstruos.Remove(nombresDeMonstruos[2]);
+
+        print("La cantidad total de personajes :" + nombresDeMonstruos.Count);
+
+
+    }
+
+    
+    void Update()
+    {
+        
+    }
+}
