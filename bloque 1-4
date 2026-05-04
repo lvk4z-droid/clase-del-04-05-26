@@ -1,0 +1,31 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class GameManager : MonoBehaviour
+{
+
+    public List<string> nombresDeEnemigos = new List<string>();
+
+
+
+    void Start()
+    {
+        nombresDeEnemigos.Add("Vampiro");
+        nombresDeEnemigos.Add("Demonio");
+        nombresDeEnemigos.Add("Momia");
+        nombresDeEnemigos.Add("Hombre Lobo");
+        
+        Debug.Log("Los enemigos son: " + nombresDeEnemigos[0] + " ,  " + nombresDeEnemigos[1] + " ,  " + nombresDeEnemigos[2] + " ,  " + nombresDeEnemigos[3]) ;
+
+
+
+
+
+    }
+
+
+    void Update()
+    {
+
+    }
+}
